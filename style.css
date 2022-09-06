@@ -2,5 +2,78 @@
     min-height: 60vh;
     
 
-background: linear-gradient(141.36deg, #C0CA81 51.83%, rgba(148, 202, 129, 0.32) 74.03%);
+background: linear-gradient(141.36deg, #949b64 51.83%, rgba(148, 202, 129, 0.32) 74.03%);
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+
+}
+
+.title span{
+    padding: 0 1rem;
+    border-bottom: 0.4rem solid yellowgreen;
+    
+}
+.icons{
+    font-size: rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icons i {
+    font-size: 5rem;
+}
+
+
+.icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+/* Project section  */
+.projects{
+
+    background: linear-gradient(171.61deg, rgba(223, 203, 96, 0.42) 11.32%, rgba(249, 225, 8, 0.1848) 60.22%);
+}
+
+.con{
+    
+    background: #6CA425;
+    
+}
+
+    .contact{
+        background: rgb(49, 124, 37);
+    }
+    
+
+/* .footer{
+    background: rgba(16, 12, 12, 0.54);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.footer div{
+    display: flex;
+    align-content: center;
+    
+    
+    
+
+} */
+
+.goup{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
 }
